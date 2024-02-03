@@ -27,6 +27,17 @@ Here’s an example of how to use useEffect to fetch data from an API:
 
 ![image](https://github.com/kondalraodurgam/Hooks/assets/20201281/e822291d-0ff8-4660-85bc-41d52cec244d)
 
+<h2>3.3: useContext hook</h2>
+
+The useContext Hook works with the React Context API. It provides a way for you to make particular data accessible to all components throughout the application no matter how deeply nested they are.
+
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+![image](https://github.com/kondalraodurgam/Hooks/assets/20201281/cc6e75a3-bd2e-48ee-b856-f67dfcc84d72) 
+![image](https://github.com/kondalraodurgam/Hooks/assets/20201281/a17a010a-1eff-40a6-b4be-df54a088c92a)
+
+
+
 
 
 
