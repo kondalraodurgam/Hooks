@@ -20,7 +20,7 @@ An array that contains a list of values from the component scope (props, context
 ![image](https://github.com/kondalraodurgam/Hooks/assets/20201281/f34ee4bf-b694-4f0a-b4b0-6cecd6031804)
 
 
-2: <h2>useEffect API hook example 2</h2>
+<h2> 2: useEffect API hook example 2</h2>
 The useEffect hook allows you to perform side effects in a functional component. Side effects include things like fetching data from an API, updating the DOM, or subscribing to an event.
 
 Here’s an example of how to use useEffect to fetch data from an API:
