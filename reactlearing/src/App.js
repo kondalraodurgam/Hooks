@@ -2,7 +2,8 @@ import "./App.css";
 // import UseState from './components/UseState';
 // import UseEffect from './components/UseEffect';
 // import UseEffectAPI from './components/UseEffectAPI';
-import UseContext from "./components/UseContext";
+// import UseContext from './components/UseContext';
+import UseReducer from "./components/UseReducer";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseEffectAPI /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <UseReducer />
     </div>
   );
 }
