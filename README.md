@@ -37,6 +37,13 @@ Context provides a way to pass data through the component tree without having to
 ![image](https://github.com/kondalraodurgam/Hooks/assets/20201281/a17a010a-1eff-40a6-b4be-df54a088c92a)
 
 
+<h2>4: useReducer hook </h2>
+The useReducer hook allows you to manage complex state in a functional component. It’s similar to the useState hook, but instead of a simple value, it takes a reducer function and an initial state.
+
+![image](https://github.com/kondalraodurgam/ReactjsLearning/assets/20201281/e7085331-025f-4363-9141-fbb7d601ebb6)
+
+
+
 
 
 
