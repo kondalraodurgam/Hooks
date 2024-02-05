@@ -1,17 +1,27 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-function UseState(){
-    const [count,setCount] = useState(0);
-    return(
-        <div>
-            <h2>Use State Hooks</h2>
-            <p> Count Value {count}</p>
-            <button onClick={()=> setCount(count+1)}>Increment Count Value</button>
-            <button onClick={()=> setCount(count-1)}>Decrement Count Value</button>
+function UseState() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
 
-            <button onClick={()=>setCount(0)}>Reset Count </button>
+  function onChangeFirstName(e) {
+    setFirstName(e.target.value);
+  }
+  function onChangeLastName(e) {
+    setLastName(e.target.value);
+  }
 
-        </div>
-    )
+  return (
+    <div>
+      <h2>useState hook example</h2>
+      <br />
+      First name:
+      <input type="text" value={firstName} onChange={onChangeFirstName} />
+      <br />
+      Last name:
+      <input type="text" value={lastName} onChange={onChangeLastName} />
+    </div>
+  );
 }
-export default  UseState;
+
+export default UseState;
