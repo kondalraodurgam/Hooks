@@ -4,6 +4,8 @@ import "./App.css";
 // import UseEffectAPI from './components/UseEffectAPI';
 // import UseContext from './components/UseContext';
 import UseReducer from "./components/UseReducer";
+// import UseCallBack from './components/UseCallBack';
+// import UseMemo from "./components/UseMemo";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       {/* <UseEffectAPI /> */}
       {/* <UseContext /> */}
       <UseReducer />
+      {/* <UseCallBack /> */}
+      {/* <UseMemo /> */}
     </div>
   );
 }

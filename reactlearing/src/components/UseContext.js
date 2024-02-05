@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-const SomeContext = React.createContext("dark");
+const SomeContext = React.createContext("light");
 
 function UseContext() {
   const theme = useContext(SomeContext);
