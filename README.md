@@ -1,5 +1,5 @@
 <h2>1: useState hook <h2>
-The useState hook allows you to add state to a functional component. It takes an initial value as an argument and returns an array with two elements: the current state value and a function to update it.
+The useState hook allows you to add a state to a functional component. It takes an initial value as an argument and returns an array with two elements: the current state value and a function to update it.
 
 
 
@@ -9,7 +9,7 @@ The useState hook allows you to add state to a functional component. It takes an
 <h2>2.useEffect Hook</h2>
 If you’re familiar with React class lifecycle methods, you can think of the useEffect Hook as the componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods all combined in one function. It lets you replicate React's lifecycle methods in functional components.
 
-The useEffect Hook lets you perform side effects in function components. Side effects are actions that can run alongside the main operations of a component, such as external API interactions, modifying state variables, and data fetching.
+The use effect Hook lets you perform side effects in function components. Side effects are actions that can run alongside the main operations of a component, such as external API interactions, modifying state variables, and data fetching.
 
 The useEffect hook accepts 2 arguments:
 
